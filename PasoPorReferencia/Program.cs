@@ -11,12 +11,12 @@ namespace PasoPorReferencia
         static void Main(string[] args)
         {
             var a = 10;
-            Write(a);
+            Write(ref a);
             Console.WriteLine(a);
             Console.ReadLine();
         }
 
-        static void Write(int a) {
+        static void Write(ref int a) {
             a = 20;
         }
     }
