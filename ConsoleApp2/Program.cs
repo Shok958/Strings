@@ -22,6 +22,8 @@ namespace ConsoleApp2
             {
                 sb.Append(i);
             }
+
+            var a = String.Empty;//vaciar un string
             Console.WriteLine(sb);
             Console.ReadLine();
         }
