@@ -10,6 +10,20 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            /*var cadena = "Hello";
+            for (int i = 0; i < 100000; i++) {
+                cadena = cadena + i.ToString();                 
+            }
+            Console.WriteLine(cadena);
+            Console.Read();*/
+            var sb = new StringBuilder();
+            sb.Append("Hello");
+            for (int i = 0; i < 100000; i++)
+            {
+                sb.Append(i);
+            }
+            Console.WriteLine(sb);
+            Console.ReadLine();
         }
     }
 }
